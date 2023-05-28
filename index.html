@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/92e267d57f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="mainContanier">
+        <div class="dateMonthTimeDiv">
+          <div class="dayDiv">
+            <label for="day"><b>Day</b></label>
+            <input
+              type="text"
+              placeholder="DD"
+              name="day"
+              id="dayId"
+              required
+            />
+            <span id="spanDay"></span>
+          </div>
+
+          <div class="monthDiv">
+            <label for="day"><b>Month</b></label>
+
+            <input
+              type="text"
+              placeholder="MM"
+              name="day"
+              id="monthId"
+              required
+            />
+
+            <span id="spanMonth"></span>
+          </div>
+          <div class="yearDiv">
+            <label for="day"><b>Year</b></label>
+            <input
+              type="text"
+              placeholder="YYYY"
+              name="day"
+              id="yearId"
+              required
+            />
+
+            <span id="spanYear"></span>
+          </div>
+          <button id="headerBtn">
+            <i class="fa-sharp fa-solid fa-arrow-down fa-lg"></i>
+          </button>
+        </div>
+        <div class="contentDiv">
+          <span id="spanIconY"
+            ><i class="fa-solid fa-minus fa-2xl"></i>
+            <i class="fa-solid fa-minus fa-2xl"></i> </span
+          ><span id="spanText">Years</span><br />
+          <span id="spanIconM"
+            ><i class="fa-solid fa-minus fa-2xl"></i>
+            <i class="fa-solid fa-minus fa-2xl"></i> </span
+          ><span id="spanText">Months</span><br />
+          <span id="spanIconD"
+            ><i class="fa-solid fa-minus fa-2xl"></i>
+            <i class="fa-solid fa-minus fa-2xl"></i> </span
+          ><span id="spanText">Days</span>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
